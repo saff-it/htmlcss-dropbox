@@ -162,3 +162,49 @@ div.card{
     width: 30%;
 }
 
+
+
+/* call2action section  */
+.cta-cntr{
+    width: 60%;
+    margin: 100px 0;
+}
+
+
+
+/* squares section  */
+.container.squares{
+    display: flex;
+}
+
+.four-squares-lft{
+    height: calc(100vw / 3);
+    border: 1px solid black;
+    background-color: brown;
+    width: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square-big{
+    height: calc(100vw / 3);
+    border: 1px solid black;
+    background-color: rgb(168, 97, 97);
+    width: calc(100% / 3);
+}
+
+.four-squares-rght{
+    height: calc(100vw / 3);
+    border: 1px solid black;
+    background-color: rgb(165, 112, 42);
+    width: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    width: 50%;
+    border: 1px solid black;
+
+}
+
