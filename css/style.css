@@ -2,7 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
+
+.container.top-btm{
+    max-width: 1000px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.container.full-body{
+    max-width: 800px;
+    margin: auto;
+    border: 1px solid black;
+}
+
 
 
 /* header  */
@@ -15,16 +29,11 @@ header{
 }
 
 
+
 /* hero  */
 section.hero{
     background-color: aquamarine;
 
-}
-
-.container.top-btm{
-    max-width: 1000px;
-    margin: auto;
-    border: 1px solid black;
 }
 
 h1.title-hero{
@@ -54,3 +63,67 @@ div.hero-btm-content .hero-img{
     background-color: rgb(207, 91, 207);
     width: 70%;
 }
+
+/* SECTION PLAN BUSINESS */----
+
+div.billing-ttl{
+
+}
+
+div.billing-ttl h2{
+    font-size: 30px;
+    margin: 30px auto;
+}
+
+div.month-year{
+    background-color: bisque;
+    display: flex;
+    margin: 35px auto;
+}
+
+.month-pay, .year-pay{
+    background-color: chartreuse;
+    border: 1px solid black;
+    margin-right: 50px;
+}
+
+/* billing  */
+div.billing-opt{
+    height: 600px;
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.billing-opt .column{
+    height: 100%;
+    width: 30%;
+    background-color: blueviolet;
+
+}
+
+div.billing-btm-opt{
+    height: 200px;
+    border: 1px solid black;
+    width: 100%;
+    margin: 35px auto;
+
+}
+
+div.billing-btm-opt .title-div{
+    text-align: center;
+    border: 1px solid black;
+
+}
+
+div.btn-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
