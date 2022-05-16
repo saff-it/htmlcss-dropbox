@@ -208,3 +208,18 @@ div.card{
 
 }
 
+
+
+/* bottom squares section  */
+section.squares-bottom{
+    background-color: aqua;
+}
+
+.container.free-trial{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
