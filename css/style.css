@@ -17,6 +17,11 @@
     border: 1px solid black;
 }
 
+h2{
+    font-size: 30px;
+    margin: 30px auto;
+}
+
 
 
 /* header  */
@@ -70,10 +75,6 @@ div.billing-ttl{
 
 }
 
-div.billing-ttl h2{
-    font-size: 30px;
-    margin: 30px auto;
-}
 
 div.month-year{
     background-color: bisque;
@@ -124,6 +125,40 @@ div.btn-container{
 
 
 
+/* partner section  */
+.container.partner{
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+}
+
+div.partner-img{
+    height: 500px;
+    border: 1px solid black;
+    width: 60%;
+    background-color: rgb(73, 165, 73);
+
+}
+
+div.partner-txt{
+    height: 500px;
+    border: 1px solid black;
+    width: 40%;
+    background-color: coral;
+}
 
 
+/* 6 cards section  */
+.container.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div.card{
+    height: 300px;
+    border: 1px solid black;
+    background-color: chocolate;
+    width: 30%;
+}
 
