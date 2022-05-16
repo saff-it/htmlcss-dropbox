@@ -33,13 +33,52 @@ div.spacer{
 }
 
 
+
 /* header  */
 header{
     height: 60px;
-    background-color: burlywood;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.lft.head{
+    width: 35%;
+    display: flex;
+    align-items: center;
+}
+
+.rght.head{
+    width: 35%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.header-ul ul{
+    list-style: none;
+    font-size: 12px;
+}
+
+div.header-ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+div.header-logo{
+    transform: scale(0.7);
+}
+
+div.rght.head a{
+    text-decoration: none;
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    font-size: 12px;
+    padding: 6px 12px;
+
 }
 
 
