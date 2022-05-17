@@ -27,17 +27,14 @@ h2{
 div.spacer{
     width: 80px;
     height: 5px;
-    border-top: 1px solid white;
+    border-top: 1px solid rgb(194, 187, 187);
 }
 
 a.button{
     text-decoration: none;
-    background-color: blue;
     color: white;
     font-size: 12px;
-    padding: 8px 14px;
 }
-
 
 
 /* header  */
@@ -91,9 +88,7 @@ div.header-logo{
 .container.relative{
     position: relative;
     top: 70px;
-
 }
-
 
 section.hero{
     background-color: rgb(126, 195, 241);
@@ -103,15 +98,12 @@ section.hero{
 h1.title-hero{
     font-size: 70px;
     padding-top: 60px;
-
-
 }
 
 div.hero-btm-content{
     width: 100%;
     padding-top: 40px;
-    display: flex;
-    
+    display: flex;  
 }
 
 div.hero-btm-content .hero-txt{
@@ -130,17 +122,18 @@ div.hero-btm-content .hero-img{
     font-size: 14px;
 }
 
-.hero-txt a{
-    display: block;
-    width: 60%;
-    margin: 20px 0;
-}
-
 .hero-txt i{
     margin: 40px 0 10px 0;
     font-size: 40px;
 }
 
+.hero-txt a.button{
+    background-color: blue;
+    padding: 8px 14px;
+    display: block;
+    width: 60%;
+    margin: 20px 0;
+}
 
 
 
@@ -181,8 +174,7 @@ div.billing-ttl{
 
 /* billing  */
 div.billing-opt{
-    font-size: 14px;
-    height: 600px;
+    font-size: 12px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -218,6 +210,64 @@ div.clmn-icon{
     text-align: center;
     border-bottom: 1px solid gray;
     padding: 10px;
+}
+
+div.clmn-content{
+    margin: 25px 20px;
+}
+
+div.clmn-content .pricing{
+    font-weight: 900;
+    margin: 17px 0 15px 0;
+}
+
+div.clmn-content .clmn-content-marg{
+    margin-bottom: 45px;
+}
+
+div.clmn-specific{
+    padding-bottom: 10px;
+}
+
+.clmn-spec-row{
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.clmn-spec-row .spec-row-txt{
+    margin-left: 5px;
+}
+
+.btn-trial{
+    background-color: blue;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    
+}
+
+.btn-trial a.button{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.buy-now{
+    margin-bottom: 35px;
+}
+
+.buy-now a{
+    color: blue;
+}
+
+.clmn-assets h4{
+    margin: 25px 0;
+}
+
+.clmn-assets i{
+    color: blue;
 }
 
 
