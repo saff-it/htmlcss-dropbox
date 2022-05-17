@@ -36,6 +36,13 @@ a.button{
     font-size: 12px;
 }
 
+div.button-deck{
+    background-color: blue;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* header  */
 header{
@@ -175,6 +182,7 @@ div.billing-ttl{
 /* billing  */
 div.billing-opt{
     font-size: 12px;
+    height: 820.33px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -183,25 +191,27 @@ div.billing-opt{
 div.billing-opt .column{
     height: 100%;
     width: 30%;
-    border: 1px solid gray;
+    border: 1px solid rgb(194, 187, 187);
 
 }
 
 div.billing-btm-opt{
+    font-size: 12px;
     height: 200px;
-    border: 1px solid black;
+    border: 1px solid rgb(194, 187, 187);
     width: 100%;
     margin: 35px auto;
 
 }
 
 div.billing-btm-opt .title-div{
+    border-bottom: 1px solid rgb(194, 187, 187);
     text-align: center;
-    border: 1px solid black;
-
+    padding: 8px;
 }
 
 div.btn-container{
+    margin: 25px;
     display: flex;
     justify-content: space-between;
 }
@@ -245,7 +255,6 @@ div.clmn-specific{
     justify-content: center;
     align-items: center;
     margin: 20px 0;
-    
 }
 
 .btn-trial a.button{
@@ -269,6 +278,19 @@ div.clmn-specific{
 .clmn-assets i{
     color: blue;
 }
+
+div.button-deck.opt{
+    width: 198px;
+}
+
+div.left-txt{
+    width: 60%;
+}
+
+.left-txt h4{
+    margin: 15px 0 40px 0;
+}
+
 
 
 
@@ -294,6 +316,9 @@ div.partner-txt{
     width: 40%;
     background-color: coral;
 }
+
+
+
 
 
 /* 6 cards section  */
