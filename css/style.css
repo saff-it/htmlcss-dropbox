@@ -164,23 +164,25 @@ div.billing-ttl{
 }
 
 .month-year i{
-    border: 4px solid blue;
     border-radius: 50%;
     color: white;
     font-size: 12px;
 }
 
-.month-year i{
-    
+.month-pay i{
+    border: 4px solid blue;
 }
 
+.year-pay i{
+    border: 2px solid gray;
+}
 
 
 
 /* billing  */
 div.billing-opt{
+    font-size: 14px;
     height: 600px;
-    border: 1px solid black;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -189,7 +191,7 @@ div.billing-opt{
 div.billing-opt .column{
     height: 100%;
     width: 30%;
-    background-color: blueviolet;
+    border: 1px solid gray;
 
 }
 
@@ -211,6 +213,13 @@ div.btn-container{
     display: flex;
     justify-content: space-between;
 }
+
+div.clmn-icon{
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+
 
 
 
