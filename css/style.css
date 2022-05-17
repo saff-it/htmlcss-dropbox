@@ -87,6 +87,14 @@ div.header-logo{
 
 
 /* hero  */
+
+.container.relative{
+    position: relative;
+    top: 70px;
+
+}
+
+
 section.hero{
     background-color: rgb(126, 195, 241);
 
@@ -94,7 +102,7 @@ section.hero{
 
 h1.title-hero{
     font-size: 70px;
-    padding-top: calc(70px + 60px);
+    padding-top: 60px;
 
 
 }
@@ -116,8 +124,6 @@ div.hero-btm-content .hero-img{
 
 .hero-img img{
     width: 100%;
-    transform: scale(1.3);
-    margin: 58px 0 0 70px;
 }
 
 .hero-txt{
@@ -139,24 +145,37 @@ div.hero-btm-content .hero-img{
 
 
 
-/* SECTION PLAN BUSINESS */----
-
-div.billing-ttl{
-
-}
+/* SECTION PLAN BUSINESS */
 
 
+/* month-year section  */
 div.month-year{
-    background-color: bisque;
     display: flex;
     margin: 35px auto;
 }
 
 .month-pay, .year-pay{
-    background-color: chartreuse;
-    border: 1px solid black;
+
     margin-right: 50px;
 }
+
+div.billing-ttl{
+    margin-top: 100px;
+}
+
+.month-year i{
+    border: 4px solid blue;
+    border-radius: 50%;
+    color: white;
+    font-size: 12px;
+}
+
+.month-year i{
+    
+}
+
+
+
 
 /* billing  */
 div.billing-opt{
