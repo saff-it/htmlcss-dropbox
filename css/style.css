@@ -42,6 +42,7 @@ div.button-deck{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 20px 0;
 }
 
 /* header  */
@@ -281,6 +282,7 @@ div.clmn-specific{
 
 div.button-deck.opt{
     width: 198px;
+    margin-top: 0;
 }
 
 div.left-txt{
@@ -291,32 +293,47 @@ div.left-txt{
     margin: 15px 0 40px 0;
 }
 
+section.billing h3{
+    font-size: 20px;
+}
 
 
 
 
 /* partner section  */
 .container.partner{
-    height: 500px;
-    border: 1px solid black;
+    margin-top: 120px;
     display: flex;
 }
 
 div.partner-img{
-    height: 500px;
-    border: 1px solid black;
-    width: 60%;
-    background-color: rgb(73, 165, 73);
+    width: 65%;
 
+}
+
+div.partner-img img{
+    width: 100%;
 }
 
 div.partner-txt{
-    height: 500px;
-    border: 1px solid black;
-    width: 40%;
-    background-color: coral;
+    width: 35%;
+    margin: 35px 30px 0 30px;
 }
 
+div.partner-txt p{
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+div.button-deck.empty-btm{
+    width: 50%;
+    background-color: white;
+    border: 1px solid black;
+}
+
+a.button.empty-btm{
+    color: black;
+}
 
 
 
