@@ -302,7 +302,7 @@ section.billing h3{
 
 /* partner section  */
 .container.partner{
-    margin-top: 120px;
+    margin: 110px auto;
     display: flex;
 }
 
@@ -346,10 +346,21 @@ a.button.empty-btm{
 }
 
 div.card{
-    height: 300px;
-    border: 1px solid black;
-    background-color: chocolate;
     width: 30%;
+    margin-top: 30px;
+}
+
+div.card img{
+    width: 100%;
+}
+
+div.card p{
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+div.cards-title h2{
+    margin: 0;
 }
 
 
@@ -357,7 +368,12 @@ div.card{
 /* call2action section  */
 .cta-cntr{
     width: 60%;
-    margin: 100px 0;
+    margin: 120px 0;
+}
+
+.cta-cntr a{
+    color: blue;
+    font-size: 12px;
 }
 
 
