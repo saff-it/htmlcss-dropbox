@@ -87,6 +87,11 @@ div.header-logo{
     transform: scale(0.7);
 }
 
+.rght.head a{
+    background-color: blue;
+    padding: 8px 12px;
+}
+
 
 
 
