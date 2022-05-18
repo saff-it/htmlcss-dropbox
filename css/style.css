@@ -457,6 +457,34 @@ div.sq-btm-title h2{
 
 
 
+/* faq section  */
+.container.faq{
+    margin: 120px auto;
+}
+
+.container.faq div.question{
+    padding: 30px 0;
+    border-top: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        
+}
+
+.container.faq div.question.btm{
+    border-bottom: 1px solid gray;
+}
+
+.container.faq p{
+    display: none;
+    margin-bottom: 15px;
+}
+
+.faq-question:hover p{
+    display: inline-block;
+    font-size: 12px;
+}
+
 
 
 
