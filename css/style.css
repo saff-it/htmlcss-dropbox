@@ -34,6 +34,7 @@ a.button{
     text-decoration: none;
     color: white;
     font-size: 12px;
+    text-align: center;
 }
 
 div.button-deck{
@@ -424,30 +425,38 @@ div.cards-title h2{
 /* bottom squares section  */
 section.squares-bottom{
     background-color: rgb(126, 195, 241);
-    height: 220px;
+
 }
 
 .container.free-trial{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    padding: 80px 0;
 }
 
-.btm-sq-content{
-    
+div.sq-btm-title{
+    width: 50%;
 }
 
-.btm-sq-content h2{
-    margin: 0;
-    width: 65%;
+div.sq-btm-but{
+    width: 30%;
+    padding-top: 14px;
 }
 
-.btm-sq-content a{
-    width: 35%;
-    color: blue;
+div.sq-btm-but a{
+    background-color: white;
+    text-decoration: none;
+    color: black;
     font-size: 12px;
-    
+    padding: 6px 30px;
 }
+
+div.sq-btm-title h2{
+    margin: 0;
+}
+
+
+
 
 
 
@@ -455,6 +464,10 @@ section.squares-bottom{
 footer{
     background-color: black;
     color: white;
+}
+
+footer .container.top-btm{
+    padding: 20px 0 15px 0;
 }
 
 .foot-clmn{
