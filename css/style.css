@@ -403,7 +403,7 @@ div.cards-title h2{
 /* squares section center  */
 .square-big{
     height: calc(100vw / 3);
-    border: 1px solid black;
+    background-color: aliceblue;
     width: calc(100% / 3);
 }
 
