@@ -46,6 +46,8 @@ div.button-deck{
     margin: 20px 0;
 }
 
+
+
 /* header  */
 header{
     height: 60px;
@@ -84,6 +86,10 @@ div.header-ul li{
     margin: 0 15px;
 }
 
+div.header-ul:hover li{
+    border-bottom: 1px solid blue;
+}
+
 div.header-logo{
     transform: scale(0.7);
 }
@@ -91,6 +97,11 @@ div.header-logo{
 .rght.head a{
     background-color: blue;
     padding: 8px 12px;
+}
+
+a.anchor{
+    color: black;
+    
 }
 
 
