@@ -427,6 +427,10 @@ div.bottom-right.left{
     background-color: rgb(253, 2, 2);
 }
 
+.square:hover{
+    border: 10px solid rgba(255, 255, 255, 0.8);
+}
+
 
 
 /* squares section center  */
