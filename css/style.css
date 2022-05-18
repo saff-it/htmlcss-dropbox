@@ -497,19 +497,20 @@ div.sq-btm-title h2{
         
 }
 
-.container.faq div.question.btm{
-    border-bottom: 1px solid gray;
-}
-
 .container.faq p{
     display: none;
-    margin-bottom: 15px;
+    padding-bottom: 15px;
+    font-size: 12px;
 }
 
 .faq-question:hover p{
     display: inline-block;
-    font-size: 12px;
 }
+
+div.empty-faq{
+    border-top: 1px solid gray;
+}
+
 
 
 
