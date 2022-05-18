@@ -399,6 +399,7 @@ div.cards-title h2{
 
 div.square{
     width: 50%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -432,7 +433,7 @@ div.bottom-right.left{
 .square-big{
     height: calc(100vw / 3);
     background-color: aliceblue;
-    width: calc(100% / 3);
+    width: calc(100vw / 3);
 }
 
 .square-big .square-container{
@@ -461,14 +462,11 @@ div.spacer.sq-sect{
 /* squares section right  */
 .four-squares-rght{
     height: calc(100vw / 3);
-    width: calc(100% / 3);
+    width: calc(100vw / 3);
     display: flex;
     flex-wrap: wrap;
 }
 
-.square{
-    width: 50%;
-}
 
 div.top-left.right{
     background-color: rgb(255, 0, 0);
