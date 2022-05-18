@@ -392,7 +392,7 @@ div.cards-title h2{
 
 .four-squares-lft{
     height: calc(100vw / 3);
-    width: calc(100% / 3);
+    width: calc(100vw / 3);
     display: flex;
     flex-wrap: wrap;
 }
