@@ -392,12 +392,40 @@ div.cards-title h2{
 
 .four-squares-lft{
     height: calc(100vw / 3);
-    border: 1px solid black;
-    background-color: brown;
     width: calc(100% / 3);
     display: flex;
     flex-wrap: wrap;
 }
+
+div.square{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.square img{
+    width: 50%;
+    color: white;
+    filter: invert(1);
+}
+
+div.top-left.left{
+    background-color: rgb(152, 209, 152);
+}
+
+div.top-right.left{
+    background-color: rgb(97, 9, 9);
+}
+
+div.bottom-left.left{
+    background-color: rgb(24, 123, 180);
+}
+
+div.bottom-right.left{
+    background-color: rgb(253, 2, 2);
+}
+
 
 
 /* squares section center  */
@@ -433,8 +461,6 @@ div.spacer.sq-sect{
 /* squares section right  */
 .four-squares-rght{
     height: calc(100vw / 3);
-    border: 1px solid black;
-    background-color: rgb(165, 112, 42);
     width: calc(100% / 3);
     display: flex;
     flex-wrap: wrap;
@@ -442,10 +468,23 @@ div.spacer.sq-sect{
 
 .square{
     width: 50%;
-    border: 1px solid black;
-
 }
 
+div.top-left.right{
+    background-color: rgb(255, 0, 0);
+}
+
+div.top-right.right{
+    background-color: rgb(128, 186, 219);
+}
+
+div.bottom-left.right{
+    background-color: rgb(17, 28, 134);
+}
+
+div.bottom-right.right{
+    background-color: rgb(255, 230, 0);
+}
 
 
 /* bottom squares section  */
